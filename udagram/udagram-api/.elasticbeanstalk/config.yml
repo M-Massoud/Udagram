@@ -8,6 +8,8 @@ global:
   default_ec2_keyname: null
   default_platform: Node.js 16
   default_region: us-east-1
+  deploy:
+    artifact: www/Archive.zip
   include_git_submodules: true
   instance_profile: null
   platform_name: null
@@ -16,5 +18,3 @@ global:
   repository: null
   sc: null
   workspace_type: Application
-  deploy:
-    artifact: www/Archive.zip
