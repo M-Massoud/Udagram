@@ -31,7 +31,7 @@ jobs:
           name: Install API Dependencies
           command: |
             echo "TODO: Install dependencies in the the backend API  "
-           npm run api:install
+            npm run api:install
 
       # TODO: Lint the frontend
       - run:
